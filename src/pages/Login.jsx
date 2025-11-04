@@ -24,8 +24,8 @@ const Login = () => {
     }
 
     // Check email domain
-    if (!email.endsWith('@iitr.ac.in')) {
-      setError('Please use your IIT Roorkee email (@iitr.ac.in)');
+    if (!email.endsWith('iitr.ac.in')) {
+      setError('Please use your IIT Roorkee email (iitr.ac.in)');
       return;
     }
 
